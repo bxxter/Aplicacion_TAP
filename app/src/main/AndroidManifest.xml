@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplicaciontap">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Topicos App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplicacionTAP">
+
+        <activity android:name=".MainActivity" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ActivityEjercicio1" />
+        <activity android:name=".ActivityEjercicio2"
+            android:theme="@style/Theme.AplicacionTAP.NoActionBar" />
+        <activity android:name=".ActivityEjercicio3" />
+        <activity android:name=".ActivityEjercicio4" />
+        <activity android:name=".ActivityEjercicio5" />
+        <activity android:name=".ActivityEjercicio6" />
+        <activity android:name=".ActivityEjercicio7" />
+        <activity android:name=".ActivityEjercicio8" />
+        <activity android:name=".ActivityEjercicio9" />
+        <activity android:name=".ActivityEjercicio10" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo para el Toolbar -->
+    <style name="ToolbarPersonalizado" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">#333446</item>
+        <item name="titleTextColor">#EAEFEF</item>
+    </style>
+
+    <!-- Estilo para los botones -->
+    <style name="BotonEstilo" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">#7F8CAA</item> <!-- ESTE ES EL CORRECTO PARA MaterialButton -->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+</resources>
